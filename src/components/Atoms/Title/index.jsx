@@ -10,13 +10,13 @@ export const Title = () => {
 }
 
 const StyledText = styled.div`
-    color: ${COLOR.WHITE};
-    font-family: ${FONTSTYLE.NOTO_SANS};
-    ${TEXT.M};
+  color: ${COLOR.WHITE};
+  font-family: ${FONTSTYLE.NOTO_SANS};
+  ${TEXT.M};
 
-    /* メディアクエリ */
-    @media (min-width: ${BREAKPOINT.MEDIUM}){
-      ${TEXT.L};
-    }
+  /* メディアクエリ */
+  @media (min-width: ${BREAKPOINT.MEDIUM}){
+    ${TEXT.L};
+  }
 `;
 
